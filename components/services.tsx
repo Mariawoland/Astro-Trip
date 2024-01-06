@@ -53,11 +53,14 @@ const Services = () => {
 
                                     </div>
                                     <div className='lg:w-1/2 w-full'>
-                                        <div className='p-10 text-white-2'>
-                                            <h2 className='font-semibold text-3xl text-center pb-6'>{item.title}</h2>
+                                        <div className='h-full flex flex-col justify-between p-10 text-white-2'>
+                                            <div>
+                                                 <h2 className='font-semibold text-3xl text-center pb-6'>{item.title}</h2>
                                             <h4 className='text-xl font-semibold pb-3'>Price: {item.price}</h4>
                                             <h4 className='text-xl font-semibold pb-6'>Date: {item.date}</h4>
                                             <p className='text-base pb-8'>{item.longDescription}</p>
+                                            </div>
+                                           
                                             <Contact />
                                         </div>
                                     </div>
