@@ -15,6 +15,7 @@ const page = () => {
       <Cabins />
       <Aboutus />
       <FAQ />
+      <div id='testimonials'></div>
       <Testimonials />
     </>
   )
