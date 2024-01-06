@@ -12,7 +12,7 @@ const Aboutus = () => {
                     </p>
                 </div>
                 <div className='text-white-2 border-2 border-white-2 overflow-hidden bg-dark-2 rounded-2xl text-base lg:w-1/2 w-full'>
-                    <img src='info1.JPG' className='mizumeba-1 w-full h-full   object-cover' />
+                    <img src='info1.jpg' className='mizumeba-1 w-full h-full   object-cover' />
                 </div>
             </div>
 
