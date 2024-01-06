@@ -15,7 +15,7 @@ const FAQ = () => {
             <h1 className='text-[2.8rem] px-2 pb-10 pt-2 text-white-2'>FAQ.</h1>
             <div className='flex lg:flex-row flex-col gap-6'>
                 <div className='text-white-2 border-2 border-white-2 overflow-hidden bg-dark-2 rounded-2xl text-base lg:w-1/2 w-full'>
-                    <img src='info2.JPG' className='mizumeba-1 w-full h-full  object-cover' />
+                    <img src='info2.jpg' className='mizumeba-1 w-full h-full  object-cover' />
                 </div>
                 <Accordion type="single" collapsible className="lg:w-1/2 w-full sm:p-7 p-2">
                     {FreqAQ.map((que) => (
